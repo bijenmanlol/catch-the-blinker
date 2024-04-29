@@ -36,7 +36,7 @@ body {
   height: 20em;
   position: sticky;
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 img {
@@ -50,6 +50,7 @@ img {
 
 #controls img {
   position: absolute;
+  transition: 0.2s;
 }
 
 #controls img:nth-child(1) {
