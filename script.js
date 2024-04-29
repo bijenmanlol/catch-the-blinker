@@ -42,28 +42,28 @@ generateEnemy();
 function up() {
   if (player[1] != 0) {
     player[1]--;
-  };
+  }
   syncPlayer();
 }
 
 function right() {
   if (player[0] != 5) {
     player[0]++;
-  };
+  }
   syncPlayer();
 }
 
 function left() {
   if (player[0] != 0) {
     player[0]--;
-  };
+  }
   syncPlayer();
 }
 
 function down() {
   if (player[1] != 2) {
     player[1]++;
-  };
+  }
   syncPlayer();
 }
 
